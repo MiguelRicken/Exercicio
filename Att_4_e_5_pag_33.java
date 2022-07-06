@@ -10,10 +10,11 @@ public class Att_4_e_5_pag_33 {
         float valor = (float) 10.25; 
         float salario;
         int horas;
-        System.out.println("Quantas horas trabalhadas: ");
-        horas = input.nextInt();
-        salario = horas * valor;
-        System.out.println("Seu salário é: R$ " + salario);
+        
+            System.out.println("Quantas horas trabalhadas: ");
+                horas = input.nextInt();
+                salario = horas * valor;
+            System.out.println("Seu salário é: R$ " + salario);
 
         if (salario < 50) {
             JOptionPane.showMessageDialog(null, "Atenção, dirija-se à direção do Hotel!");
