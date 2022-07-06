@@ -5,15 +5,15 @@ public class Att_1_pag_33{
 
            int Imp = 0, Par = 1;
 
-           for(int i=0;i<=30;++i){  //conta de 0 a 30
+           for(int i=0;i<=30;++i){ 
 
                   if(i%2==0){
 
-                         Par *= i;  //multPar é multiplicado com i
+                         Par *= i;  
 
                   } else {
 
-                         Imp += i;  //somaImp é somado com i
+                         Imp += i;  
 
                   }
 
